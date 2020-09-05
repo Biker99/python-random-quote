@@ -1,11 +1,11 @@
-def weissnicht():
-  print("Keep it logically awesome.")
-  print("Keep it logically awesome.")
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+def main():
+  #print("Keep it logically awesome.")
 
-  #print(quotes)
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
+
+  print(quotes[0])
 
 if __name__== "__main__":
-  weissnicht()
+  main()
